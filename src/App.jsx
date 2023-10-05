@@ -1,4 +1,4 @@
-// import React from 'react'
+// import React
 import Navbar from './components/navbar'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import MainLayout from "./Layout/MainLayout";

@@ -7,3 +7,10 @@
       @apply mx-auto max-w-6xl px-8
   }
 }
+
+a.active {
+  background-color: rgb(236, 182, 145);
+  padding: 2px 5px;
+  color: #ffffff;
+  border-radius: 5px;
+}

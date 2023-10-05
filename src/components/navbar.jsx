@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 function Navbar() {
   return (
     <nav className='py-6 bg-gray-300 shadow-md'>

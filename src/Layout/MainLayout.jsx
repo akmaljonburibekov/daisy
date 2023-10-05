@@ -5,7 +5,7 @@ function MainLayout() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="align-element py-12">
         <Outlet />  
       </main>
     </>
