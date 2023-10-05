@@ -1,12 +1,16 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigation } from "react-router-dom";
 import Navbar from "../components/navbar";
+import Loading from "../components/Loading";
 
 function MainLayout() {
+  
+
   return (
     <>
       <Navbar />
       <main className="align-element py-12">
-        <Outlet />  
+        {/* {true ? <Loading /> : <Outlet />} */}
+        <Outlet/>
       </main>
     </>
   );

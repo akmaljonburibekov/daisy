@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function ArticleList({ articles }) {
   return (
     <ul className="grid lg:grid-cols-3 md:grid-cols-3 gap-4">
@@ -15,7 +16,7 @@ function ArticleList({ articles }) {
               <h2 className="card-title">{title}</h2>
               <p>Author: {author}</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Read More</button>
+                <Link to={`/article/${id}`} className="btn btn-primary">Read More</Link>
               </div>
             </div>
           </li>

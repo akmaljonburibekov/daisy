@@ -5,6 +5,7 @@ import MainLayout from "./Layout/MainLayout";
 import Contact from "./pages/contact";
 import About from "./pages/about";
 import Home from "./pages/home";
+import Article from './pages/Article';
 
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
           path: "contact",
           element: <Contact/>
         },
+        {
+          path: "article/:id",
+          element: <Article/>
+        }
       ],
     },
   ]);
